@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Dashboard</title>
+</head>
+<body>
+    
+    <h2>Token Dashboard</h2>
+    <h3>by Obed Laws</h3>
+
+    <form>
+    Coin: <input name="token" type="text" id="coin"><br>
+    <input type="button" onclick="getPrice()" value="Start">
+    </form>
+
+    <script src="./functions.js"></script>
+
+    <div>
+        <h3>Price</h1>
+        <p id="returned"></p><p> USD</p>
+
+    </div>
+
+    
+    <footer>
+        <p>Powered by <a href="https://www.coingecko.com/en/api">CoinGecko's API</a></p>
+        <p>Source Code</p>
+        <p>Github</p>
+        <p>Youtube</p>
+
+    
+    </footer>
+</body>
+</html>
