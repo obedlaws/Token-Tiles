@@ -1,0 +1,14 @@
+.centered {
+border: 5px solid #000000;
+display: flex;
+justify-content: center;
+
+}
+
+.v-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -mg-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

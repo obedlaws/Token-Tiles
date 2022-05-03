@@ -1,0 +1,19 @@
+{
+    "crypto": {
+        "bitcoin": {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "blockchain": "N/A",
+            "logo": "./src/images/btc-logo.png",
+            "price":"https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+            "14D price":"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily"
+        },
+        "ethereum": {
+
+        },
+        "binance-coin": {
+
+        }
+
+    }
+}
